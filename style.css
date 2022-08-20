@@ -71,7 +71,6 @@ main .texto p{
 }
 
 .titulo { 
-  grid-area: titulo;
   display: flex; 
   color: #454545;
   background-color: #D5C7BC;
@@ -111,8 +110,7 @@ main .texto p{
   margin: 10px;
 }
 
-.footer { 
-  grid-area: footer; 
+.footer {
   background-color: #93B7BE;
 }
 
