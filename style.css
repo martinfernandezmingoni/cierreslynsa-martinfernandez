@@ -29,6 +29,11 @@
         
 }
 
+.header img:hover {
+  
+    filter: opacity(0.4) drop-shadow(0 0 0 red); 
+    transform:scale(1.2);
+}
 .header ul{
   display: flex;
   list-style: none;
@@ -68,6 +73,11 @@ main .texto p{
   width: 40vw;
   display: flex;
   text-align: center;
+}
+
+main img{
+  width: 250px;
+  border-radius: 8%;
 }
 
 .titulo { 
@@ -149,7 +159,7 @@ main .texto p{
 
 
 
-@media (max-width: 690px){
+@media (max-width: 720px){
   .header{
     flex-direction: column;
   }
