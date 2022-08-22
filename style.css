@@ -29,6 +29,11 @@
         
 }
 
+.header img:hover {
+  
+    filter: opacity(0.4) drop-shadow(0 0 0 red); 
+    transform:scale(1.2);
+}
 .header ul{
   display: flex;
   list-style: none;
